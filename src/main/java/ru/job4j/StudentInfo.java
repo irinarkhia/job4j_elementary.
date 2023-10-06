@@ -2,6 +2,8 @@ package ru.job4j;
 
 public class StudentInfo {
     public static void main(String[] args) {
+        System.out.println("Irina Berkovskaya");
+        System.out.println("24.12.2000");
         System.out.println("1 * 1 = 1");
         System.out.println("1 * 2 = 2");
         System.out.println("1 * 3 = 3");
