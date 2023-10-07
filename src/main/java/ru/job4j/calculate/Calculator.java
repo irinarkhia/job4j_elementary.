@@ -15,5 +15,9 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        int age = 18; /* создаем переменную. */
+        System.out.println(age);
+        age = 19; /* присваиваем новое значение. */
+        System.out.println(age);
     }
 }
