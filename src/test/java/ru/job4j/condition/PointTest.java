@@ -30,7 +30,7 @@ class PointTest {
 
     @Test
     void when23to01then6() {
-        double expected = 2;
+        double expected = 6;
         int x1 = 2;
         int y1 = 3;
         int x2 = 0;
