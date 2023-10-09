@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class SqArea {
-    @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public static double square(double p, double k) {
         double h = p / (2 * (k + 1));
         double l = h * k;
