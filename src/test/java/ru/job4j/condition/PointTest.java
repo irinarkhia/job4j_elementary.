@@ -18,23 +18,12 @@ class PointTest {
     }
 
     @Test
-    void when34to56then6() {
-        double expected = 6;
+    void when33to66then4() {
+        double expected = 4.2426;
         int x1 = 3;
-        int y1 = 4;
-        int x2 = 5;
-        int y2 = 6;
-        double out = Point.distance(x1, y1, x2, y2);
-        assertThat(out).isEqualTo(expected, withPrecision(0.01));
-    }
-
-    @Test
-    void when23to01then6() {
-        double expected = 6;
-        int x1 = 2;
         int y1 = 3;
-        int x2 = 0;
-        int y2 = 1;
+        int x2 = 6;
+        int y2 = 6;
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
