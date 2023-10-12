@@ -7,7 +7,7 @@ public class CheckPrimeNumber {
             canDivByNum = true;
         } else {
             for (int i = 2; i < number; i++) {
-                if (number % i != 0) {
+                if (number %  i != 0) {
                     canDivByNum = true;
                 } else {
                     canDivByNum = false;
