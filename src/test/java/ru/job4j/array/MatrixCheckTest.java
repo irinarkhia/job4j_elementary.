@@ -117,4 +117,17 @@ class MatrixCheckTest {
         boolean result = MatrixCheck.isWin(input);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void whenDataDiagMonoIsEmptyThenFalse() {
+        char[][] input = {
+                {' ', ' ', ' ', ' ', ' '},
+                {' ', ' ', ' ', ' ', ' '},
+                {'X', 'X', 'X', 'X', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+        };
+        boolean result = MatrixCheck.isWin(input);
+        assertThat(result).isFalse();
+    }
 }
