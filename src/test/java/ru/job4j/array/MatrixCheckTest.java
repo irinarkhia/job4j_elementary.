@@ -23,7 +23,7 @@ class MatrixCheckTest {
         char[][] input = {
                 {' ', ' ', ' '},
                 {'X', 'X', ' '},
-                {' ', ' ', ' '},
+                {' ', 'X', ' '},
         };
         int row = 1;
         boolean result = MatrixCheck.monoHorizontal(input, row);
