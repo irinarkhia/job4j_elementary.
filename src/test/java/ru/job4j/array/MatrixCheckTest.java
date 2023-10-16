@@ -158,7 +158,7 @@ class MatrixCheckTest {
     public void whenDataDiagMonoIsEmptyThenFalse() {
         char[][] input = {
                 {' ', ' ', ' ', ' ', ' '},
-                {' ', ' ', 'X', 'X', ' '},
+                {' ', ' ', 'X', ' ', ' '},
                 {'X', 'X', 'X', 'X', ' '},
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
