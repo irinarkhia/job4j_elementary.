@@ -22,7 +22,7 @@ class CheckTest {
 
     @Test
     void whenDataMonoByFalseThenTrue() {
-        boolean[] data = new boolean[] {false, false, false};
+        boolean[]  data = new boolean[] {false, false, false};
         boolean result = Check.mono(data);
         assertThat(result).isTrue();
     }
