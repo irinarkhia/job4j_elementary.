@@ -8,7 +8,7 @@ class MatrixCheckTest {
 
     @Test
     public void whenHasMonoHorizontal() {
-        char[][]  input = {
+        char[][] input = {
                 {' ', ' ', ' '},
                 {'X', 'X', 'X'},
                 {' ', ' ', ' '},
