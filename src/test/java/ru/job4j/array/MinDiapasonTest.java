@@ -19,7 +19,7 @@ class MinDiapasonTest {
     @Test
     public void whenLastMin() {
         int[] array = new int[] {10, 5, 3, 1};
-        int start = 1;
+        int start  = 1;
         int finish = 3;
         int result = MinDiapason.findMin(array, start, finish);
         int expected = 1;
