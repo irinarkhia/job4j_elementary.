@@ -34,7 +34,7 @@ class MatrixCheckTest {
     public void whenHasMonoVertical() {
         char[][] input = {
                 {' ', ' ', 'X'},
-                {' ', ' ', 'X'},
+                {' ', 'X', 'X'},
                 {' ', ' ', 'X'},
         };
         int column = 2;
