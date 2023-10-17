@@ -8,7 +8,7 @@ class TwoNumberSumTest {
 
     @Test
     void whenTwoEqualsNumbersYesTarget() {
-        int[] array = {5, 5};
+        int[]  array = {5, 5};
         int target = 10;
         int[] result = TwoNumberSum.getIndexes(array, target);
         int[] expected = {0, 1};
