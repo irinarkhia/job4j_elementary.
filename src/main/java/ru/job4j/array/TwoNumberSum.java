@@ -11,10 +11,8 @@ public class TwoNumberSum {
             } else {
                 if (j > i) {
                     j--;
-                } else {
-                    i++;
-                    j = array.length - 1;
                 }
+            i++;
             }
         }
         return new int[0];
