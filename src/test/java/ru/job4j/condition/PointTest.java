@@ -34,7 +34,7 @@ class PointTest {
     }
 
     @Test
-    void when02to62then6() {
+    void when02to62then6d() {
         Point point = new Point(0, 2);
         Point point1 = new Point(6, 2);
         double asd = point.distance(point1);
