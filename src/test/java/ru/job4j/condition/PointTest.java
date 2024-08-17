@@ -41,4 +41,31 @@ class PointTest {
         double expected = 6;
         assertThat(asd).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when123to124then1dot0() {
+        Point point = new Point(1, 2, 3);
+        Point point1 = new Point(1, 2, 4);
+        double asd = point.distance3d(point1);
+        double expected = 1.0;
+        assertThat(asd).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void when1023to1240then38dot0788() {
+        Point point = new Point(10, 2, 3);
+        Point point1 = new Point(1, 2, 40);
+        double asd = point.distance3d(point1);
+        double expected = 38.0788;
+        assertThat(asd).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void whenminis122132to11234then36dot2904() {
+        Point point = new Point(-12, 21, 32);
+        Point point1 = new Point(11, 23, 4);
+        double asd = point.distance3d(point1);
+        double expected = 36.2904;
+        assertThat(asd).isEqualTo(expected, withPrecision(0.01));
+    }
 }
